@@ -8,7 +8,6 @@ function App() {
     <Routes>
       <Route path="/" element={<Search />} />
       {/* <Route path={`/detail/:id`} element={<Detail/>} /> */}
-
     </Routes>
   );
 }

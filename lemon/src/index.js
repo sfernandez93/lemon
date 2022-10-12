@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "./firebase";
 import "./index.css";
 import App from "./App";
 import DetailContextProvider from "./context/DetailContext";
@@ -12,11 +11,11 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-        <DetailContextProvider>
+        {/* <DetailContextProvider> */}
           <SearchContextProvider>
             <App />
           </SearchContextProvider>
-        </DetailContextProvider>
+        {/* </DetailContextProvider> */}
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")

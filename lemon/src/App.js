@@ -7,7 +7,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Search />} />
-      {/* <Route path={`/detail/:id`} element={<Detail/>} /> */}
+      <Route path={`/detail/:id`} element={<Detail/>} />
     </Routes>
   );
 }

@@ -14,7 +14,7 @@ const BreadCrumb = () => {
       {location && location?.pathname.includes("detail") ? (
         <div>
           <div>{">"}</div>
-          <NavLink to={`/detail/${dataDetail.id}`}>
+          <NavLink to={`/detail/${dataDetail?.id}`}>
             <div className="">{"Detalle"}</div>
           </NavLink>
         </div>

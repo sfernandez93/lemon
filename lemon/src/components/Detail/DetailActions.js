@@ -13,13 +13,11 @@ const DetailActions = ({ data }) => {
         <input hidden name="mobileId" value={data?.id}></input>
         <DetailSelector
           options={data?.options?.colors}
-          selectorTitle="Color"
           selectorName="color"
         ></DetailSelector>
         <DetailSelector
           options={data?.options?.storages}
-          selectorTitle="Almacenamiento"
-          selectorName="almacenamiento"
+          selectorName="storage"
         ></DetailSelector>
       </div>
       <DetailAddToCartButton />

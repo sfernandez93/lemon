@@ -64,7 +64,7 @@ const DetailContextProvider = ({ children }) => {
     const data = {};
 
     data.colorCode = e.target.color.value;
-    data.storageCode = e.target.almacenamiento.value;
+    data.storageCode = e.target.storage.value;
     data.id = e.target.mobileId.value;
 
     setDataCart((prevState) => [...prevState, data]);

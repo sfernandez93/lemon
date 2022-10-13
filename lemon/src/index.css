@@ -3,8 +3,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Lora";
-  /* border: 1px solid; */
+  font-family: "Lora, sans-serif;";
 }
 
 ::placeholder {
@@ -253,5 +252,3 @@ a {
   justify-content: center;
 }
 
-@media screen and (max-width: 1000px) {
-}

@@ -18,8 +18,11 @@ Lemon is a mini-application for shopping on mobile devices. The application has 
 ## Screenshoots
 
 <p align="center">
-  <img src="/screenshots/detail-lemon.JPG" width="15%" />
-  <img src="/screenshots/search-lemon.JPG" width="15%" />
+  <img src="/screenshots/login-screenshot.JPG" width="15%" />
+  <img src="/screenshots/search-screenshot.JPG" width="15%" />
+  <img src="/screenshots/detail-screenshot.JPG" width="15%" />
+  <img src="/screenshots/upload-screenshot.JPG" width="15%" />
+  <img src="/screenshots/favorites-screenshot.JPG" width="15%" />
 </p>
 
 ---

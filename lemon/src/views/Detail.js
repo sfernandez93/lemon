@@ -6,6 +6,7 @@ import { DetailContext } from "../context/DetailContext";
 import DetailImage from "../components/Detail/DetailImage";
 import DetailFeatures from "../components/Detail/DetailFeatures";
 import DetailActions from "../components/Detail/DetailActions";
+import DetailPrice from "../components/Detail/DetailPrice";
 
 const Detail = () => {
   const { id } = useParams();
@@ -24,7 +25,10 @@ const Detail = () => {
           <DetailImage imgUrl={dataDetail?.imgUrl}></DetailImage>
           <DetailActions data={dataDetail}></DetailActions>
         </div>
-        <DetailFeatures data={dataDetail}></DetailFeatures>
+        <div>
+          <DetailFeatures data={dataDetail}></DetailFeatures>
+          <DetailPrice price = {dataDetail?.price}></DetailPrice>
+        </div>
       </div>
     </div>
   );

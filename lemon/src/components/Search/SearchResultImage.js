@@ -1,6 +1,6 @@
 const SearchResultImage = ({ imgUrl }) => {
   return (
-    <div className="search-image-container">
+    <div className="search-image-container" data-testid="search-result-image">
       <img src={imgUrl} alt="Mobile" />
     </div>
   );

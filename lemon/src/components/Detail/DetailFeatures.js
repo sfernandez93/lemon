@@ -16,10 +16,10 @@ const DetailFeatures = ({ data }) => {
         title={"Modelo"}
         subtitle={data?.model}
       ></DetailFeatureItem>
-      <DetailFeatureItem
+      {/* <DetailFeatureItem
         title={"Precio"}
         subtitle={data?.price ? `${data?.price} euros` : ""}
-      ></DetailFeatureItem>
+      ></DetailFeatureItem> */}
       <DetailFeatureItem title={"CPU"} subtitle={data?.cpu}></DetailFeatureItem>
       <DetailFeatureItem title={"RAM"} subtitle={data?.ram}></DetailFeatureItem>
       <DetailFeatureItem

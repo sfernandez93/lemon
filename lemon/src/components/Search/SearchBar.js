@@ -4,7 +4,7 @@ import SearchInput from "./SearchInput";
 
 const SearchBar = ({text}) => {
   return (
-      <form className="search-bar">
+      <form className="search-bar" data-testid="search-bar">
         <SearchInput
           name={"filter"}
           placeholder={"¿Qué estás buscando?"}

@@ -50,7 +50,7 @@ The server part has multiple **API endpoints** using several routes:
 
 ## Hosting
 
-[broken-silver.surge.sh](broken-silver.surge.sh)
+[broken-silver.surge.sh](https://broken-silver.surge.sh)
 
 ---
 ## Author
